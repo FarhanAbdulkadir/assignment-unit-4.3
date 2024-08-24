@@ -57,7 +57,8 @@ listItems();
 // test empty function 
 
 console.log('emptying basket...');
-console.log(empty());
+console.log('Basket after emptying', empty());
+listItems();
 
 // STRETCH GOALS 
 
