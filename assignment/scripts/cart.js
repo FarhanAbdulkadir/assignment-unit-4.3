@@ -69,11 +69,8 @@ const maxItems = 5;
 function isFull(){
 // if the items in the basket aren't full return true
 
-    if(basket.length>=maxItems){
-        return true;
-    } else {
-        return false;
-    }
+    return basket.length>=maxItems
+        
 
 
 }
@@ -81,7 +78,7 @@ function isFull(){
 
 // test isFull function 
 
-console.log(`is the function full? ${isFull()}`);
+console.log(`is the function not full? ${isFull()}`);
 
 // updated addItem function 
 
